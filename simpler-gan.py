@@ -35,7 +35,7 @@ parser.add_argument('--saveImagesEvery', type=int, default='10', help='save imag
 parser.add_argument('--manualSeed', type=int, help='manual seed')
 
 opt = parser.parse_args()
-print(opt)kkk
+print(opt)
 
 try:
     os.makedirs(opt.outf)
